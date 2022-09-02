@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <input type="text" name="name" class="name" placeholder="Name" required><br><br>
+            <input type="email" name="email" class="email" placeholder="Email Address" required><br><br>
+            <input type="number" name="number" class="number" placeholder="Contact Number" maxlength="10" required><br><br>
+            <div class="DOB">Date of birth : <input type="date" name="Date" class="date" max="2022-12-31"></div>
+            <div class="gender">
+                Gender :  <div><input type="radio" name="a"> Male</div> <div><input type="radio" name="a"> Female</div> <div><input type="radio" name="a"> Others</div>
+            </div>
+            <div class="domain">
+                Interested Domain : <br>
+                <div class="select">
+                    <select name="interested-domain" class="interested-domain">
+                      <option>choose a domain ....</option>
+                      <option>Master DSA with C++</option>
+                      <option>Full Stack Development</option>
+                      <option>Game Development</option>
+                      <option>AI ML with Python</option>
+                      <option>Python with Data Science</option>
+                    </select>
+                </div>
+            </div>
+            <div class="verification">
+                upload your recent photo for verification : <br>
+                <div class="img"><input type="file" name="image"></div>
+            </div>
+            <div class="terms-conditions"><div><input type="checkbox" name="terms" required></div><div>I agree to the Terms and Conditions.</div></div>
+            <div class="button">
+                <button class="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

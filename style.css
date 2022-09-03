@@ -140,6 +140,25 @@ body{
     box-shadow: 0px 5px 0px hsl(248, 48%, 50%);
     cursor:pointer;
 }
-
-
-
+@media screen and (max-width: 426px)
+{
+    body{
+        background-image:url(./images/bg-intro-mobile.png);
+        font-size:14px;
+    }
+    .container{
+        width: 85%;
+        height:auto;
+        padding: 30px 25px 15px 25px;
+    }
+    .container .form .gender{
+        width:90%;
+    }
+    .container .form .domain .interested-domain{
+        font-size:14px;
+    }
+    .container .form .terms-conditions{
+        font-size:14px;
+        width:92%;
+    }
+}

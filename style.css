@@ -147,18 +147,18 @@ body{
         font-size:14px;
     }
     .container{
-        width: 85%;
+        width: 90%;
         height:auto;
-        padding: 30px 25px 15px 25px;
+        padding: 30px 20px 15px 20px;
     }
     .container .form .gender{
-        width:90%;
+        width:100%;
     }
     .container .form .domain .interested-domain{
         font-size:14px;
     }
     .container .form .terms-conditions{
         font-size:14px;
-        width:92%;
+        width:96%;
     }
 }
